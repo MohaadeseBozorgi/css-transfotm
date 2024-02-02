@@ -1,0 +1,154 @@
+section {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+
+}
+
+.section2{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 50px;
+
+}
+
+section .div1 {
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border: 1px solid burlywood;
+
+}
+
+
+
+.div1 .div2 {
+    width: 150px;
+    height: 150px;
+    background-color: plum;
+    margin: 45px;
+
+}
+
+
+.A:hover {
+    transform: rotate(45deg);
+   
+}
+
+.B:hover {
+    transform: rotateX(50deg);
+    
+}
+
+.C:hover {
+    transform: rotateY(50deg);
+    
+}
+
+.D:hover {
+    transform: scale(2);
+}
+
+.E:hover {
+    transform: scaleX(2);
+}
+
+.F:hover {
+    transform: scaleY(2);
+}
+
+.G:hover {
+    transform: skewX(45deg);
+}
+
+.H:hover {
+    transform: skewY(45deg);
+}
+
+.I:hover {
+    transform: translate(80px, 20px);
+}
+
+.J:hover {
+    transform: translate(100px);
+}
+
+.K:hover {
+    transform: translateY(100px);
+}
+
+.L:hover {
+    transform: skewY(45deg) scale(1.5);
+}
+
+.M:hover {
+    transform: perspective(100px) rotateX(45deg);
+}
+
+.N:hover {
+  transform: perspective(100px) rotateY(45deg);
+}
+
+.O:hover {
+    transform-origin: top right;
+    transform: rotate(45deg);
+
+}
+
+.P:hover {
+    transform-origin: bottom left;
+    transform: rotate(45deg);
+
+}
+
+.Q:hover {
+    transform-origin: bottom;
+    transform: perspective(400px) rotateX(45deg);
+}
+
+.R:hover {
+    transform-origin: top;
+    transform: perspective(400px) rotateX(60deg);
+}
+
+.S:hover {
+    transform-origin: left;
+    transform: perspective(400px) rotateY(45deg);
+}
+
+.T:hover {
+    transform-origin: right;
+    transform: perspective(400px) rotateY(45deg);
+}
+
+.U:hover {
+    transform-origin: top right;
+    transform: scale(1.5);
+}
+
+.V:hover {
+    transform-origin: bottom left;
+    transform: scale(1.5);
+}
+
+.W:hover {
+    transform-origin: right;
+    transform: scaleX(1.5);
+}
+
+.X:hover {
+    transform-origin: left;
+    transform: scaleX(1.5);
+}
+
+.Y:hover {
+    transform-origin: top;
+    transform: scaleY(1.5);
+}
+
+.Z:hover {
+    transform-origin: bottom;
+    transform: scaleY(1.5);
+}
